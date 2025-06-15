@@ -3,6 +3,9 @@
     "@azure/static-web-apps-cli": "^2.0.6"
   },
   "scripts": {
-    "swa": "echo Running SWA CLI && swa"
+    "swa": "echo Running SWA CLI && swa",
+    "swa:build": "echo Building SWA app && swa build",
+    "swa:deploy:preview": "echo Deploying SWA app to preview && swa deploy",
+    "swa:deploy:production": "echo Deploying SWA app to production && swa deploy --env Production"
   }
 }
